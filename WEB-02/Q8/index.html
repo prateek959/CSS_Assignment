@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Selector</title>
+    </head>
+    <style>
+        .container{
+            width: 80%;
+            display: flex;
+            margin-left: 10%;
+            /* justify-content: space-between; */
+            /* border: 2px solid black; */
+        }
+        .first{
+            width: 50%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .second{
+            width:50%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .text{
+            width: 80%;
+             height: 50px;
+             border: 1px solid rgb(89, 87, 87);
+              font-size: 18px;
+        }
+        .text-1{
+            margin-top: 30px;
+            width: 80%;
+            height: 60px;
+             font-size: 20px;
+              background-color: green;
+               color: white;
+                border: none;
+        }
+        .list{
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="first">
+                <h1>My Maggi</h1>
+                <h1>Welcome Back !</h1>
+                <h2 style="color: gray; margin-top: 30px;">Email</h2>
+                <input type="email" class="text" placeholder="Enter your e-mail address here*">
+                <h2 style="color: gray; margin-top: 30px;">Password</h2>
+                <input type="password" class="text" placeholder="Enter your Password here*"><br>
+                <input type="button" value="> Login Via e-mail" class="text-1">
+            </div>
+            <div class="second">
+                <h1 style="font-size: 40px;">Not Register Yet?</h1>
+                <input type="button" value="> Register" class="text-1" style="background-color: black;">
+                <h1 style="margin-top: 50px;">Join Maggi Today!</h1>
+                <ul style="list-style: none;">
+                    <li class="list">✅ Your personal newsletter with exciting recipes and ideas</li>
+                    <li class="list">✅ Personalize your newsletter to your preferences</li>
+                    <li class="list">✅ Get to know about Maggi products</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
